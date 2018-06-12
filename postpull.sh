@@ -1,5 +1,6 @@
 #!/bin/bash
 # function to check if program is installed (npm global)
+# (Thanks to Jamie Mason for this function: https://gist.github.com/JamieMason/4761049)
 function program_is_installed {
   # set to 1 initially
   local return_=1
