@@ -30,7 +30,7 @@ function check_yarn {
 }
 
 echo -e "\e[36m-- Check if yarn is installed --\e[0m"
-(check_gulp $(program_is_installed yarn))
+(check_yarn $(program_is_installed yarn))
 
 echo -e "\e[36m-- Running yarn --\e[0m"
 yarn
